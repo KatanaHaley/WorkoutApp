@@ -14,6 +14,7 @@ export default function App() {
         <Text style={styles.exerciseName}>{exercise.name}</Text>
         <Text style={styles.exerciseSubtitle}>
           {exercise.muscle.toUpperCase()} | {exercise.equipment.toUpperCase()}
+             
           </Text>
       </View>
 
